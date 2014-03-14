@@ -1,0 +1,190 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%; 
+	background-image:url('background.jpg');
+	/*background-color:#282828;*/
+	font-family:Arial,Helvetica,sans-serif;
+}
+p {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;	
+	color:#FFFFFF;
+	font-size:100%
+}
+/***** HEADER *****/
+#header {
+	width: 100%;
+	height: 50px;
+	background-color: #000000;
+}
+#header .h1 {
+	float:left;
+	font-size:16px;
+	color: #FFFFFF;
+}
+#header ul {
+	list-style-type: none;
+	float:right;
+}
+#header li {
+	float: left;
+	margin: 0;
+}
+#header li a  {
+	color: #E3E3E3;
+	padding: 0 20px; /* 0 top and bottom 20px left and right */
+	text-decoration: none; /* No underline */
+	text-transform: uppercase;
+}
+#header li.active a {
+	padding: 0 20px; /* 0 top and bottom 20px left and right */
+	color: #FFFFFF;
+	font-weight:bold;
+	text-decoration: none;
+}
+#header li a:hover {
+	color:#B0171F;
+}
+/***** BANNER *****/
+#banner {
+	margin: 50px; /* top right bottom left */
+	width: 90%;
+	height: 70px;
+	/*background-color: #282828;*/
+	background-color:transparent;
+	opacity:0.6;
+	overflow:hidden;
+}
+#banner .h1 {
+	font-size:200%;
+	letter-spacing: 4px;
+	word-spacing: 15px;
+	color:#FFFFFF;
+	text-align:center;
+}
+#banner .h2 {
+	font-size:150%;
+	color:#B7B7B7;
+	text-align:center;
+	letter-spacing: 4px;
+	word-spacing: 15px;
+}
+/***** MAIN *****/
+#main {
+	display: block;
+	margin: 25px;
+	width: 95%;
+	height:440px;
+	background-color: #848484;
+	opacity:0.6;
+	overflow:hidden;
+}
+#main .p {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;	
+	color:#FFFFFF;
+	font-size:100%;
+	padding-left: 10px;
+}
+#large-main {
+	display: block;
+	margin: 25px;
+	width: 95%;
+	height:640px;
+	background-color: #848484;
+	opacity:0.6;
+	overflow:scroll;
+}
+#large-main .h1 {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;	
+	padding: 10px;
+	color:#FFFFFF;
+	font-size:200%;
+}
+#large-main .p {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;	
+	padding: 10px;
+	color:#FFFFFF;
+	font-size:100%;
+}
+#large-main .p1 {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;	
+	padding: 10px;
+	color:#FFFFFF;
+	font-size:90%;
+}
+/***** NAV *****/
+#nav a {
+	display: block;
+	padding: 20px;
+	color:#FFFFFF;
+	font-size:160%;
+	text-align:center;
+	text-decoration:none;
+}
+#nav :hover {
+	background-color:#B0171F;
+}
+#nav .topleft {
+	margin-left: 25px;
+	margin-bottom: 30px;
+	width: 45%;
+	height: 70px;
+	background-color: #848484;
+	float:left;
+	opacity:0.6;
+}
+#nav .topright {
+	margin-right:25px;
+	margin-bottom: 30px;
+	width:45%;
+	height: 70px;
+	background-color: #848484;
+	float:right;
+	opacity:0.6;
+}
+#nav .bottomleft {
+	margin-left:25px;
+	margin-bottom: 30px;
+	width: 45%;
+	height: 70px;
+	background-color: #848484;
+	float:left;
+	opacity:0.6;
+}
+#nav .bottomright {
+	margin-right: 25px;	
+	margin-bottom: 30px;
+	width: 45%;
+	height: 70px;
+	background-color: #848484;
+	float:right;
+	opacity:0.6;
+}
+/***** FOOTER *****/
+#footer {
+	bottom: 0;
+	position:fixed;
+	width: 100%;
+	height: 50px;
+	background-color: #000000;
+	clear:both;
+}
+#footer .p {
+	text-align:center;
+	font-size:70%;
+	color:#FFFFFF;
+}
+/***** TABLE *****/
+#th {
+	font-size: 12px;
+	font-family: "Arial", "Helevtica", "sans-serif";
+}
+#tr {
+	font-size: 12px;
+	font-family: "Arial", "Helevtica", "sans-serif";
+}
+#td {
+	font-size: 12px;
+	font-family: "Arial", "Helevtica", "sans-serif";
+}
